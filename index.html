@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugar Cafee</title>
+
+    <!-- CSS sheet -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    
+    <!-- aos css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+<header>
+
+    <a href="#home" class="logo">Sugar.</a>
+    <nav class="navbar">
+        <div id="navbar">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul id="uList" class="navigation">
+            <li><a id="ddd" class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">menu</a></li>
+            <li><a href="#popular">popular</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#order">order</a></li>
+        </ul>
+       </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+</header>
+
+<!-- end of Navbar -->
+
+<!-- Home section -->
+<section class="home" id="home">
+    <div class="content">
+        <h1>we believe good coffee and<br>snack offer great smile</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Iure, <br>odit distinctio error corporis adipisci <br>molestias 
+            eveniet optio quaerat tempore asperiores!</p>
+            <a href="#"><button class="btn">get started</button></a>
+    </div>
+
+    <div class="image">
+        <img src="./Images /banner.png">
+    </div>
+
+</section>
+
+<!-- End of Home section -->
+
+<!-- about section -->
+    <section class="about" id="about">
+        <div class="row">
+
+          <div class="about-col">
+              <div class="about-image">
+            <img src="./Images /about.jpeg">
+             </div>
+         </div>
+        
+          <div class="about-col">
+              <div>
+            <h2 class="sub-title">a word about Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium eligendi a totam consequatur! Quis minus amet iusto iure repudiandae, incidunt enim fugiat ipsa? Iure quam et quo quos quisquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint totam pariatur saepe sit nostrum consequuntur, praesentium accusamus harum voluptate soluta.</p>
+              </div>
+              <div id="learn-btn">
+                <a href="#"><button class="btn">Learn More</button></a>
+              </div>
+            
+          </div>
+    </div>
+    </section>
+
+<!-- End of about section -->
+
+<!-- Menu section -->
+ 
+  <section class="menu" id="menu">
+    
+      <h1 class="heading">our delicious <span>menu</span></h1>
+
+      <!-- <hr class="new1"> -->
+      <ul class="list">
+        <li class="btn" onclick="fnDring()">Drinks</li>
+        <li class="btn active" onclick="fnBreakfast()">breakfast</li>
+        <li class="btn" onclick="fnSnack()">snacks</li>
+        <li class="btn" onclick="fnDessert()">Dessert</li>
+    </ul>
+    <!-- <hr class="new1"> -->
+    
+    
+    <div class="row">
+        <div class="image-col">
+            <img src="./Images /breakfast.jpeg" id="menu-img" width="300" height="400">
+        </div>
+
+        <div class="content-col">
+            <div class="info">
+                <h3><span>0.1</span>we serve best Drinks in the country</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, vero?</p> 
+            </div>
+
+            <div class="info">
+                <h3><span>0.2</span>we serve best breakfast in the country</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, vero?</p> 
+            </div>
+
+            <div class="info">
+                <h3><span>0.3</span>we serve best snacks in the country</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, vero?</p> 
+            </div>
+
+            <div class="info">
+                <h3><span>0.4</span>we serve best desserts in the country</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, vero?</p> 
+            </div>
+
+        </div>
+
+    </div>
+
+  </section>
+<!-- End of Menu section -->
+
+<!-- popular section starts  -->
+<section class="popular" id="popular">
+    <h1 class="heading"> most <span>popular</span> orders </h1>
+    <div class="box-container row">
+        <div class="box">
+        <img src="./Images /drinks1.jpeg">
+        <h3>delicious cappuccino</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$3</div>
+        <a href="#"><button class="btn">add to card</button></a>
+    </div>
+
+    <div class="box">
+        <img src="./Images /breakfast1.jpeg">
+        <h3>french breakfast</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$15</div>
+        <a href="#"><button class="btn">add to card</button></a>
+    </div>
+
+    <div class="box">
+        <img src="./Images /snacks.jpeg">
+        <h3>cheese board snack</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$10</div>
+        <a href="#"><button class="btn">add to card</button></a>
+    </div>
+
+    <div class="box">
+        <img src="./Images /pexels-roman-odintsov-4551125.jpeg">
+        <h3>roman Dessert</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="price">$12</div>
+        <a href="#"><button class="btn">add to card</button></a>
+    </div>
+ 
+    </div>
+</section>
+<!-- popular section Ends  -->
+
+<!-- gallery section starts  -->
+ 
+<section class="gallery" id="gallery">
+    <h1 class="heading"> our options <span>gallery</span> </h1>
+
+    <div class="box-container row">
+
+        <div class="box">
+            <img src="./Images /esspresso.jpeg">
+            <h3>Esspresso $2.5</h3>
+        </div>
+
+        <div class="box">
+            <img src="./Images /cappuccino.jpeg">
+            <h3>cappucctino $3</h3>
+        </div>
+
+
+        <div class="box">
+            <img src="./Images /cafe latte.jpeg">
+            <h3>caffe latte $3</h3>
+        </div>
+
+        
+        <div class="box">
+            <img src="./Images /breakfast1.jpeg">
+            <h3>French breakfast $15</h3>
+        </div>
+
+        <div class="box">
+            <img src="./Images /american breakfast.jpeg">
+            <h3>American breakfast $12</h3>
+        </div>
+
+        <div class="box">
+            <img src="./Images /mediterranean breakfast.jpeg">
+            <h3>mediterranean breakfast $20</h3>
+        </div>
+
+        <div class="box">
+            <img src="./Images /snack2.jpeg">
+            <h3>cold meat and fries $8</h3>
+        </div>
+
+        <div class="box">
+            <img src="./Images /snacks.jpeg">
+            <h3>cheese board $10</h3>
+        </div>
+
+        <div class="box">
+            <img src="./Images /pizza.jpeg">
+            <h3>pizza $11</h3>
+        </div>
+
+        <div class="box">
+            <img src="./Images /pexels-roman-odintsov-4551125.jpeg">
+            <h3>roman desert $12</h3>
+        </div>
+
+        <div class="box">
+            <img src="./Images /cake.jpeg">
+            <h3>cakes $6</h3>
+        </div>
+
+        <div class="box">
+            <img src="./Images /macaroons.jpeg">
+            <h3>macaroons $2.5</h3>
+        </div>
+
+
+
+    </div>
+</section>
+
+<!-- gallery section Ends  -->
+
+<!--order section starts -->
+<section class="order" id="order">
+    <div>
+    <h1 class="heading" id="heading">make an <span>order</span></h1>
+    </div> 
+
+    <div class="orderForm">
+        <div class="inputBox">
+            <input type="text" placeholder="your name">
+        </div>
+
+        <div class="inputBox">
+            <input type="email" placeholder="your email">
+        </div>
+
+        <div class="inputBox">
+           <input type="number" placeholder="your number">
+        </div>
+
+        <div class="inputBox">
+            <textarea name=""id="" cols="30" rows="10" placeholder="your address"></textarea>
+         </div>
+
+         <div class="inputBox">
+            <input type="submit" value="order now" class="btn">
+         </div>
+        
+    </div>
+    </section>
+
+
+<!--order section Ends-->
+
+<!-- footer section starts  -->
+
+<div class="footer">
+  
+    <div class="box-container row">
+        <div class="box">
+            <h3>Contact info</h3>
+            <p><i class="fas fa-map-marker-alt"  ></i> LA Calefonia 400104</p>
+            <p><i class="fas fa-envelope"  ></i> sugar-info@gamil.com</p>
+            <p><i class="fas fa-phone"  ></i> +1 123-456-7890</p>
+            <p><i class="fas fa-phone"  ></i> +1 111-222-3333</p>
+        </div>
+
+        <div class="box">
+            <h3>branch location</h3>
+            <a href="#">LA</a>
+            <a href="#">Vegas</a>
+            <a href="#">San Deigo</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">popular</a>
+            <a href="#">gallery</a>
+            <a href="#">order</a>
+        </div>
+
+        <div class="box" id="social-icons">
+            <h3>follow us</h3>
+           <div><i class="fa fa-facebook"></i></div>
+           <div><i class="fa fa-instagram"></i></div>
+            <div><i class="fa fa-twitter"></i></div>
+            <div><i class="fa fa-youtube"></i></div>
+        </div>
+
+    </div>
+
+    <p class="credit">Made with <i class="fa fa-heart-o"></i> by raja ali</p>
+
+    </div>
+
+
+<!-- footer section Ends  -->
+
+
+<script>
+    
+    function fnDring (){
+        document.getElementById('menu-img').src='./pics/drinks1.jpeg';   
+    };
+    function fnSnack(){
+        document.getElementById('menu-img').src='./pics/snack1.jpeg';
+    };
+
+    function fnDessert(){
+        document.getElementById('menu-img').src='./pics/cake.jpeg';
+
+    };
+
+    function fnBreakfast(){
+        document.getElementById('menu-img').src='./pics/breakfast.jpeg';
+    };
+
+    var navbar=document.getElementById("navbar");
+    function showMenu(){
+        navbar.style.right="0";
+    }
+    function hideMenu(){
+        navbar.style.right="-200px";
+    }
+
+</script>
+</body>
+</html>
